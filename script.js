@@ -12,7 +12,7 @@ form.addEventListener('submit',(e)=>{
     const result= Math.pow(l1+l2,3)%101;
 
     const show = document.querySelector('h2');
-    show.textContent = `result: ${result}`;
+    show.textContent = `result: ${result}%`;
     form.reset();
 })
 
